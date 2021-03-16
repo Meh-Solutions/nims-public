@@ -46,3 +46,7 @@ A couple things to note about Lockdown Mode. I recommend you **DO NOT** keep it 
 
 #### Score Testing
 If you want to check what score NIMS would give you, you can check that by running the command `?test score`. If you want to see what someone else's score is, you can check by running the command `?test score THEIR_USER_ID`. For example `?test score 539581928387510273`
+
+#### Removing NIMS
+
+If you no longer want to use NIMS, don't just kick it from your server. You can run the command `?remove` instead! The `?remove` command will delete all roles, channels, and permissions created by NIMS on your server. 
