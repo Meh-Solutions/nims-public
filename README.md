@@ -44,6 +44,8 @@ NIMS will then ask if you are sure you want to enable Lockdown Mode. Just reply 
 
 A couple of things to note about Lockdown Mode. I recommend you **DO NOT** keep it enabled 24/7. Since Lockdown Mode might lead to some real users being kicked because they are multi-tasking or not paying attention. I recommend you only use Lockdown Mode if your server is actively being raided. 
 
+#### Kick Unverified Members
+If you want to kick all unverified members, you can use the command `?kick uv`. The bot will then ask if you are sure that you want to proceed. If you answer the bot with `yes` then all unverified members will be kicked from your server. 
 #### Score Testing
 If you want to check what score NIMS would give you, you can check that by running the command `?test score`. If you want to see what someone else's score is, you can check by running the command `?test score THEIR_USER_ID`. For example `?test score 539581928387510273`
 
