@@ -31,7 +31,21 @@ You can change the minimum score by running the command `?settings score SCORE`.
 
 ### Captcha Settings
 #### Captcha Font
-There are two fonts you can use for the captchas sent by the bot. The two options are `default` and `roboto`. By default, the bot uses the captcha font `default`. If you would like to change the captcha font to Roboto, you would run the command `?settings captcha font roboto`
+There are three fonts you can use for the captchas sent by the bot. The two options are `default`, `roboto`, and `color`. By default, the bot uses the captcha font `default`. If you would like to change the captcha font to Roboto, you would run the command `?settings captcha font roboto`
+
+The font `color` is a little easier for users to solve.
+
+##### Examples of the captcha fonts
+###### color
+![color font](https://cdn.discordapp.com/attachments/809181845379612722/829059200696320101/captcha.png)
+
+##### default
+![default font](https://cdn.discordapp.com/attachments/809181845379612722/829026174688559134/captcha.png)
+
+#### roboto
+![coming soon]()
+
+
 
 #### Captcha Case
 You can also change the character case of the text in the captchas sent by NIMS. By default, NIMS will send captchas will both upper and lowercase letters. However, sometimes this can be too difficult for users to solve. You can make the captcha easier by changing the font to only upper or lower case. For example, you can change the captcha font to only use lower case by running the command `?settings captcha case lower`. Or if you want the captchas to be all uppercase, you can use the command `?settings captcha case upper`
